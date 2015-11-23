@@ -8,4 +8,4 @@ Place `Low-Key.xml` file into `/usr/share/qtcreator/styles` or `~/.config/QtProj
 If you are on Windows, the styles directory will reside at `C:\Users\%USERNAME%\AppData\Roaming\QtProject\qtcreator\styles`.
 
 # Screenshot
-![screenshot](http://github.com/0x414c/qt-creator-low-key-theme/raw/master/Low-Key.png)
+![screenshot](https://github.com/0x414c/qt-creator-low-key-theme/raw/master/Low-Key.png)
