@@ -9,9 +9,9 @@
   <style name="Parentheses" foreground="#000000" background="#9cf49c"/>
   <style name="ParenthesesMismatch" foreground="#000000" background="#ffaf5f"/>
   <style name="CurrentLine" foreground="#000000" background="#bfdfff"/>
-  <style name="CurrentLineNumber" foreground="#808080" bold="true"/>
+  <style name="CurrentLineNumber" foreground="#808080" bold="true" italic="true"/>
   <style name="Occurrences" foreground="#000000" background="#b4b4b4" bold="true"/>
-  <style name="Occurrences.Unused" foreground="#806f00" bold="true"/>
+  <style name="Occurrences.Unused" foreground="#404040" background="#efefef"/>
   <style name="Occurrences.Rename" foreground="#000000" background="#ff7164"/>
   <style name="Number" foreground="#25695e" bold="true" italic="true"/>
   <style name="String" foreground="#702c51" bold="true" italic="true"/>
@@ -27,7 +27,7 @@
   <style name="Preprocessor" foreground="#252c69" italic="true"/>
   <style name="Label" foreground="#252c69" italic="true"/>
   <style name="Comment" foreground="#1d4d19" italic="true"/>
-  <style name="Doxygen.Comment" foreground="#1d4d19"/>
+  <style name="Doxygen.Comment" foreground="#1d4d19" italic="true"/>
   <style name="Doxygen.Tag" foreground="#43519c" bold="true" italic="true"/>
   <style name="VisualWhitespace" foreground="#e0e0e0"/>
   <style name="QmlLocalId" foreground="#702c51"/>
@@ -42,15 +42,19 @@
   <style name="QmlStateName" foreground="#702c51" bold="true"/>
   <style name="Binding" foreground="#252c69" bold="true"/>
   <style name="DisabledCode" foreground="#404040" background="#efefef"/>
-  <style name="AddedLine" foreground="#009000"/>
-  <style name="RemovedLine" foreground="#c80000"/>
+  <style name="AddedLine" foreground="#008000"/>
+  <style name="RemovedLine" foreground="#c00000"/>
   <style name="DiffFile" foreground="#000080"/>
   <style name="DiffLocation" foreground="#0000ff"/>
-  <style name="DiffFileLine" background="#ffea00"/>
+  <style name="DiffFileLine" background="#e6e6a7"/>
   <style name="DiffContextLine" background="#a7d4e6"/>
   <style name="DiffSourceLine" background="#ffe1e1"/>
   <style name="DiffSourceChar" background="#ffafaf"/>
   <style name="DiffDestLine" background="#e1ffe1"/>
   <style name="DiffDestChar" background="#afffaf"/>
-  <style name="LogChangeLine" foreground="#c02000" italic="true"/>
+  <style name="LogChangeLine" foreground="#c00060"/>
+  <style name="Warning" underlineColor="#ffbe00" underlineStyle="WaveUnderline"/>
+  <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DashUnderline"/>
+  <style name="Error" underlineColor="#ff0040" underlineStyle="WaveUnderline"/>
+  <style name="ErrorContext" underlineColor="#ff0040" underlineStyle="DashUnderline"/>
 </style-scheme>
